@@ -1,19 +1,34 @@
-$('#demo1').sharrre({
-  share: {
-    googlePlus: true,
-    facebook: true,
-    twitter: true
-  },
-  buttons: {
-    googlePlus: {size: 'tall', annotation:'bubble'},
-    facebook: {layout: 'box_count'},
-    twitter: {count: 'vertical', via: '_JulienH'}
-  },
-  hover: function(api, options){
-    $(api.element).find('.buttons').show();
-  },
-  hide: function(api, options){
-    $(api.element).find('.buttons').hide();
-  },
-  enableTracking: true
+$(document).ready(function(){
+  /***************/
+   $("li").click(function(){
+     $("li").removeClass("active");
+     $(this).addClass("active animated hinge");
+   });
+  /******************/
+  $("#porfolio").mouseenter(function(){
+    $("li").removeClass();
+    $(".nav li:nth-child(1)").addClass("active animated hinge");
+   });
+  /*************/
+   $("#about").mouseenter(function(){
+    $("li").removeClass();
+    $(".nav li:nth-child(2)").addClass("active animated hinge");
+   });
+  /**************/
+  $("#contact").mouseenter(function(){
+    $("li").removeClass();
+    $(".nav li:nth-child(3)").addClass("active animated hinge");
+   });
+  /******************/
+   $("#main").mouseenter(function(){
+    $("li").removeClass();
+   });
+  /****************/
+  $("#in").mouseover(function(){
+    $("i").addClass("animated rubberBand");
+  });
+   $("#in").mouseleave(function(){
+    $("i").removeClass("animated rubberBand");
+  });
+  /*************/
 });
