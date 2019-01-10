@@ -609,7 +609,7 @@ padding-bottom: 30%;:
 }
 @media screen and (min-width: 760px) {
 #about{
-height: 60vh;
+height: 80vh;
 }
 #sequence-theme {
 margin: auto;
