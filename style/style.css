@@ -603,3 +603,7 @@ padding-bottom: 30%;:
   height: 50px;
   max-width: 60px;
 }
+.text {
+  margin-left: 64px;
+  margin-right: 64px;
+}
