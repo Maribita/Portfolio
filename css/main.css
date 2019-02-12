@@ -1483,10 +1483,22 @@ header .header-logo {
     height: 28px;
     background-size: 60px 28px;
   }
+  #nav-list .smoothscroll {
+    font-size: -0.5em;
+  }
+  .menu-nav-wrap{
+    font-size: -0.5em;
+  }
 }
 @media only screen and (max-width: 400px) {
   #header-menu-trigger .header-menu-text {
     display: none;
+  }
+  #nav-list .smoothscroll {
+    font-size: -0.5em;
+  }
+  .menu-nav-wrap{
+    font-size: -0.5em;
   }
 }
 
