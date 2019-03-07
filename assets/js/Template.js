@@ -15,7 +15,7 @@ var Template = {
 	disableAjaxNavigation:false,
 
 	// define set of regexps to find urls that should not be processed via ajax handler
-	disableAjaxNavigationMatches:[/^http(s)?\:\/\//,/\.pdf$/],
+	disableAjaxNavigationMatches:[/^https(s)?\:\/\//,/\.pdf$/],
 
 	/**
 	 * Main init function
@@ -178,7 +178,7 @@ var Template = {
 	/**
 	 * Init google map component
 	 * 
-	 * @require http://maps.google.com/maps/api/js?sensor=false
+	 * @require https://maps.google.com/maps/api/js?sensor=false
 	 * @return {void}
 	 */
 	initGoogleMap: function(){

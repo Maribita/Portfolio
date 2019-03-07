@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900');
 /*=== Fonts ===*/
 @font-face {
   font-family: 'Novecento_wide_bold';
@@ -1500,7 +1500,7 @@ textarea {
   padding-bottom: 4px;
   color: #3f3f3f;
   border-bottom: none;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="3"><line x1="0" y1="0" x2="2000" y2="0" style="stroke:#3f3f3f;stroke-width:4"></line></svg>') no-repeat -2000px bottom;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="https://www.w3.org/2000/svg" width="2000" height="3"><line x1="0" y1="0" x2="2000" y2="0" style="stroke:#3f3f3f;stroke-width:4"></line></svg>') no-repeat -2000px bottom;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
